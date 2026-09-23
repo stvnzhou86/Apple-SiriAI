@@ -1,0 +1,28 @@
+DOMAIN,gateway.icloud.com,PROXY
+DOMAIN,seed.siri.apple.com,PROXY
+DOMAIN,probe.icloud.com,PROXY
+DOMAIN,metrics.icloud.com,PROXY
+DOMAIN,guzzoni.apple.com,PROXY
+DOMAIN-SUFFIX,smoot.apple.com,PROXY
+DOMAIN,api-siri-prod.apple.com,PROXY
+
+# ----------------------------------------------------------
+# Apple Intelligence / Private Cloud Compute
+# ----------------------------------------------------------
+DOMAIN,apple-relay.apple.com,PROXY
+DOMAIN,apple-relay.fastly-edge.com,PROXY
+DOMAIN,cp4.cloudflare.com,PROXY
+
+# ----------------------------------------------------------
+# Apple Intelligence relay / bootstrap
+# ----------------------------------------------------------
+DOMAIN,apple-relay.mask.apple-dns.net,PROXY
+DOMAIN,mask-api.icloud.com,PROXY
+DOMAIN,mask-api.fe2.apple-dns.net,PROXY
+DOMAIN,apple-relay.akamaized.net,PROXY
+DOMAIN,apple-carry-relay.cloudflare.com,PROXY
+
+# ----------------------------------------------------------
+# Apple region determination
+# ----------------------------------------------------------
+DOMAIN,gspe1-ssl.ls.apple.com,PROXY
